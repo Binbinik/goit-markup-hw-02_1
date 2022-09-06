@@ -140,6 +140,9 @@ line-height: 1.7;
 letter-spacing: 0.03em;
 }
 /* Команда */
+.block {
+    background-color: var(--primary-bg-color);
+}
 .section.team {
     background-color: var(--bg-our-team);
 }
