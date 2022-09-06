@@ -180,9 +180,6 @@ letter-spacing: 0.03em;
     background-color: var(--footer-bg-color);
 }
 .logo-footer {
-    
-}
-.logo-footer {
     color: var(--primary-bg-color);
    font-family: 'Raleway';
 font-weight: 700;
