@@ -10,13 +10,21 @@
     --footer-bg-color: rgba(47, 48, 58, 1);
     --bg-our-team: rgba(245, 244, 250, 1);
 }
+.visually-hidden {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+}
 /* Body */
 .page {
     background-color: var(--primary-bg-color);
     color: var(--primary-text-color);
     font-family: Roboto, sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.03em;
 }
-
 .list {
     list-style: none;
 }
@@ -31,7 +39,6 @@
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
-    letter-spacing: 0.03em;
     color: var(--logo-color); 
 }
 .accent {
@@ -43,7 +50,6 @@
 .header .site-nav .link {
     color: var(--primary-text-color);
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
@@ -58,7 +64,6 @@
 .link-contact {
     color: var(--text-color);
     font-weight: 500;
-    font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
 text-decoration: none;
@@ -75,7 +80,6 @@ text-decoration: none;
 font-size: 16px;
 line-height: 1.6;
 text-align: center;
-letter-spacing: 0.03em;
     cursor: pointer;
 }
  /* Кнопка героя */
@@ -121,23 +125,17 @@ font-weight: 700;
 font-size: 36px;
 line-height: 1.2;
 text-align: center;
-letter-spacing: 0.03em;
 }
 /* Переваги */
-.title.benefits {
-    color: var(--primary-text-color);
-    font-weight: 700;
-font-size: 14px;
+.section-benefits {
+    font-size: 14px;
 line-height: 1.14;
-letter-spacing: 0.03em;
 text-transform: uppercase;
 }
 /* Опис переваг */
 .text.description {
     color: var(--text-color); 
-font-size: 14px;
 line-height: 1.7;
-letter-spacing: 0.03em;
 }
 /* Команда */
 .block {
@@ -146,12 +144,11 @@ letter-spacing: 0.03em;
 .section.team {
     background-color: var(--bg-our-team);
 }
-.title.member {
+.section-member {
    font-weight: 500;
 font-size: 16px;
 line-height: 1.2;
 text-align: center;
-letter-spacing: 0.03em; 
 }
 /* Посада */
 .job.description {
@@ -159,7 +156,6 @@ letter-spacing: 0.03em;
 font-size: 16px;
 line-height: 1.2;
 text-align: center;
-letter-spacing: 0.03em;
 }
 /* Проекти */
 .title.project {
@@ -172,7 +168,6 @@ letter-spacing: 0.06em;
     color: var(--text-color);
 font-size: 16px;
 line-height: 1.9;
-letter-spacing: 0.03em;
 }
 
 /* Адреса */
@@ -185,19 +180,14 @@ letter-spacing: 0.03em;
 font-weight: 700;
 font-size: 26px;
 line-height: 1.2;
-letter-spacing: 0.03em; 
 }
 .address-link {
     color: var(--primary-bg-color);
-font-size: 14px;
 line-height: 1.7;
-letter-spacing: 0.03em;
 }
 .contact-link {
 color: var(--footer-mail-phone-color);
-font-size: 14px;
 line-height: 1.7;
-letter-spacing: 0.03em;
 }
 .address .link:hover,
 .address .link:focus {
